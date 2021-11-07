@@ -22,7 +22,7 @@ class KategoriUmur {
         else if(umur>60){
             System.out.println(umur+" Masuk pada kategori tua");
         }
-        else{
+        else if(umur>100){
             System.out.println(umur+" Tidak ada pada kategori bosss");
         }
     }
