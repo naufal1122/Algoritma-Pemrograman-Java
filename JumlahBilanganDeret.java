@@ -9,6 +9,7 @@ public class JumlahBilanganDeret {
         int hasilJml=0;
         String deret="";
 
+        
         for (int i=1; i<=n; i++) {
             deret=deret+String.valueOf(i)+" ";
             hasilJml=hasilJml+i;
